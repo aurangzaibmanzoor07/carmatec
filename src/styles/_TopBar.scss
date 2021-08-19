@@ -1,0 +1,13 @@
+.top-bar {
+  background-color: $primary;
+
+  .top-bar-link {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+
+    &:hover {
+      color: lightgray;
+    }
+  }
+}
