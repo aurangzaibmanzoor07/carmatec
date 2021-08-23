@@ -1,9 +1,9 @@
 nav {
   ul.items {
     width: 75%;
+    position: relative;
 
     > li {
-      position: relative;
       transition: all 0.3s;
       cursor: pointer;
       height: 100%;
@@ -12,12 +12,13 @@ nav {
 
       .sub-nav {
         position: absolute;
-        transition: all 0.3s;
+        transition: top 0.4s;
         background-color: white;
         width: 61rem;
         opacity: 0;
         visibility: hidden;
-        top: 45px;
+        top: 40px;
+        left: 0;
 
         .link {
           color: black;
@@ -51,7 +52,7 @@ nav {
     ul.items {
       > li {
         .sub-nav {
-          width: 55rem;
+          width: 52.5rem;
         }
       }
     }
